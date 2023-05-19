@@ -6,14 +6,16 @@ end
 
 ---@param object gameObject
 ---@param buff_name string
+---@param buff_type number
 ---@return nil
-function on_buff_active(object, buff_name)
+function on_buff_active(object, buff_name, buff_type)
 end
 
 ---@param object gameObject
 ---@param buff_name string
+---@param buff_type number
 ---@return nil
-function on_buff_end(object, buff_name)
+function on_buff_end(object, buff_name, buff_type)
 end
 
 ---@param args spellArgs
