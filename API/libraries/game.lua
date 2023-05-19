@@ -142,6 +142,11 @@ end
 function game:is_in_fow(x, y, z)
 end
 
+---@param object gameObject
+---@return nil
+function game:use_object(object)
+end
+
 ---@type game
 _G.game = {}
 _G.PING_VISION = 7
