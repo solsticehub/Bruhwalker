@@ -30,8 +30,9 @@ end
 ---@param category_id number
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_checkbox(text, category_id, def_value, tool_tip)
+function menu:add_checkbox(text, category_id, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -39,8 +40,9 @@ end
 ---@param sprite_path string
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_checkbox_sprite(text, category_id, sprite_path, def_value, tool_tip)
+function menu:add_checkbox_sprite(text, category_id, sprite_path, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -48,8 +50,9 @@ end
 ---@param table table
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_combobox(text, category_id, table, def_value, tool_tip)
+function menu:add_combobox(text, category_id, table, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -57,8 +60,9 @@ end
 ---@param table table
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_dropdown(text, category_id, table, def_value, tool_tip)
+function menu:add_dropdown(text, category_id, table, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -67,8 +71,9 @@ end
 ---@param max number
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_slider(text, category_id, min, max, def_value, tool_tip)
+function menu:add_slider(text, category_id, min, max, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -77,16 +82,18 @@ end
 ---@param max number
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_slider_range(text, category_id, min, max, def_value, tool_tip)
+function menu:add_slider_range(text, category_id, min, max, def_value, tool_tip, load_config)
 end
 
 ---@param text string
 ---@param category_id number
 ---@param def_value number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_keybinder(text, category_id, def_value, tool_tip)
+function menu:add_keybinder(text, category_id, def_value, tool_tip, load_config)
 end
 
 ---@param text string
@@ -95,8 +102,9 @@ end
 ---@param key number
 ---@param state number
 ---@param tool_tip string
+---@param load_config boolean
 ---@return number
-function menu:add_toggle(text, toggle_text, category_id, key, state, tool_tip)
+function menu:add_toggle(text, toggle_text, category_id, key, state, tool_tip, load_config)
 end
 
 ---@param id number
@@ -141,8 +149,9 @@ end
 ---@param blue number
 ---@param alpha number
 ---@param show_alpha boolean
+---@param load_config boolean
 ---@return number
-function menu:add_color_picker(text, category_id, red, green, blue, alpha, show_alpha)
+function menu:add_color_picker(text, category_id, red, green, blue, alpha, show_alpha, load_config)
 end
 
 ---@param picker_id number
