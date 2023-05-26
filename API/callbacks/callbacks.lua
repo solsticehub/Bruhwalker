@@ -71,10 +71,6 @@ function on_gain_vision(object)
 end
 
 ---@return nil
-function on_game_end()
-end
-
----@return nil
 function on_game_update()
 end
 
