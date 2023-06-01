@@ -1,7 +1,7 @@
 --[[
 	Author: solstice
-	Version: 13.10.1
-	Date: 19 May 2023
+	Version: 13.11.1
+	Date: 01 June 2023
 ]]
 
 local LZ = require("LZ-Lua")
