@@ -104,6 +104,7 @@
 ---@field public is_epic_monster boolean
 ---@field public death_timer_remaining number
 ---@field public last_seen_time number
+---@field public emitter_hash number
 local gameobject = {}
 
 ---@param target gameObject
