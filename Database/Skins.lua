@@ -1,7 +1,7 @@
 --[[
 	Author: solstice
-	Version: 13.11.1
-	Date: 01 June 2023
+	Version: 13.12.1
+	Date: 13 June 2023
 ]]
 
 local champions = {
@@ -910,6 +910,7 @@ local champions = {
 			"Bard Bard",
 			"Astronaut",
 			"Cafe Cuties",
+			"Shan Hai Scrolls",
 		},
 		tableChromas = {
 			["Original"] = {"None", "Ivy", "Marigold", "Sage"},
@@ -918,6 +919,7 @@ local champions = {
 			["Bard Bard"] = {"None"},
 			["Astronaut"] = {"None", "Amethyst", "Aquamarine", "Catseye", "Chrono", "Citrine", "Emerald", "Rose Quartz", "Ruby"},
 			["Cafe Cuties"] = {"None", "Catseye", "Emerald", "Obsidian", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite", "Turquoise"},
+			["Shan Hai Scrolls"] = {"None", "Citrine", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -946,6 +948,15 @@ local champions = {
 			[19] = {skin = "Cafe Cuties", chroma = "Sapphire"},
 			[23] = {skin = "Cafe Cuties", chroma = "Tanzanite"},
 			[24] = {skin = "Cafe Cuties", chroma = "Turquoise"},
+			[26] = {skin = "Shan Hai Scrolls"},
+			[31] = {skin = "Shan Hai Scrolls", chroma = "Citrine"},
+			[29] = {skin = "Shan Hai Scrolls", chroma = "Emerald"},
+			[34] = {skin = "Shan Hai Scrolls", chroma = "Obsidian"},
+			[33] = {skin = "Shan Hai Scrolls", chroma = "Pearl"},
+			[32] = {skin = "Shan Hai Scrolls", chroma = "Rose Quartz"},
+			[27] = {skin = "Shan Hai Scrolls", chroma = "Ruby"},
+			[28] = {skin = "Shan Hai Scrolls", chroma = "Sapphire"},
+			[30] = {skin = "Shan Hai Scrolls", chroma = "Tanzanite"},
 		},
 	},
 	Belveth = {
@@ -4352,6 +4363,7 @@ local champions = {
 			"Arcanist",
 			"Bee'Maw",
 			"Zap'Maw",
+			"Shan Hai Scrolls",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -4368,6 +4380,7 @@ local champions = {
 			["Arcanist"] = {"None", "Aquamarine", "Catseye", "Emerald", "Obsidian", "Rainbow", "Rose Quartz", "Ruby", "Sapphire"},
 			["Bee'Maw"] = {"None", "Amethyst", "Aquamarine", "Obsidian", "Peridot", "Rainbow", "Rose Quartz", "Ruby", "Sandstone"},
 			["Zap'Maw"] = {"None", "Amethyst", "Aquamarine", "Emerald", "Pearl", "Rose Quartz", "Ruby", "Tanzanite", "Turquoise"},
+			["Shan Hai Scrolls"] = {"None", "Amethyst", "Catseye", "Obsidian", "Pearl", "Peridot", "Rose Quartz", "Ruby", "Sapphire"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -4416,6 +4429,15 @@ local champions = {
 			[38] = {skin = "Zap'Maw", chroma = "Ruby"},
 			[45] = {skin = "Zap'Maw", chroma = "Tanzanite"},
 			[43] = {skin = "Zap'Maw", chroma = "Turquoise"},
+			[46] = {skin = "Shan Hai Scrolls"},
+			[52] = {skin = "Shan Hai Scrolls", chroma = "Amethyst"},
+			[49] = {skin = "Shan Hai Scrolls", chroma = "Catseye"},
+			[54] = {skin = "Shan Hai Scrolls", chroma = "Obsidian"},
+			[53] = {skin = "Shan Hai Scrolls", chroma = "Pearl"},
+			[51] = {skin = "Shan Hai Scrolls", chroma = "Peridot"},
+			[50] = {skin = "Shan Hai Scrolls", chroma = "Rose Quartz"},
+			[47] = {skin = "Shan Hai Scrolls", chroma = "Ruby"},
+			[48] = {skin = "Shan Hai Scrolls", chroma = "Sapphire"},
 		},
 	},
 	KSante = {
@@ -4634,6 +4656,7 @@ local champions = {
 			"DWG",
 			"Debonair",
 			"High Noon",
+			"Crystalis Motus",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -4651,6 +4674,7 @@ local champions = {
 			["DWG"] = {"None", "Elite"},
 			["Debonair"] = {"None", "Catseye", "Cerulean Club", "Emerald", "Obsidian", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite", "Turquoise"},
 			["High Noon"] = {"None", "Catseye", "Nomad", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite"},
+			["Crystalis Motus"] = {"None", "Reclaimed"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -4703,6 +4727,8 @@ local champions = {
 			[44] = {skin = "High Noon", chroma = "Ruby"},
 			[49] = {skin = "High Noon", chroma = "Sapphire"},
 			[45] = {skin = "High Noon", chroma = "Tanzanite"},
+			[50] = {skin = "Crystalis Motus"},
+			[51] = {skin = "Crystalis Motus", chroma = "Reclaimed"},
 		},
 	},
 	Lillia = {
@@ -4710,11 +4736,13 @@ local champions = {
 			"Original",
 			"Spirit Blossom",
 			"Nightbringer",
+			"Shan Hai Scrolls",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
 			["Spirit Blossom"] = {"None", "Amethyst", "Citrine", "Night Blossom", "Obsidian", "Rose Quartz", "Ruby", "Sapphire", "Turquoise"},
 			["Nightbringer"] = {"None", "Catseye", "Deathbringer", "Emerald", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite"},
+			["Shan Hai Scrolls"] = {"None", "Amethyst", "Citrine", "Emerald", "Meteorite", "Obsidian", "Pearl", "Rose Quartz", "Ruby"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -4736,6 +4764,15 @@ local champions = {
 			[11] = {skin = "Nightbringer", chroma = "Ruby"},
 			[14] = {skin = "Nightbringer", chroma = "Sapphire"},
 			[16] = {skin = "Nightbringer", chroma = "Tanzanite"},
+			[19] = {skin = "Shan Hai Scrolls"},
+			[25] = {skin = "Shan Hai Scrolls", chroma = "Amethyst"},
+			[27] = {skin = "Shan Hai Scrolls", chroma = "Citrine"},
+			[21] = {skin = "Shan Hai Scrolls", chroma = "Emerald"},
+			[22] = {skin = "Shan Hai Scrolls", chroma = "Meteorite"},
+			[26] = {skin = "Shan Hai Scrolls", chroma = "Obsidian"},
+			[24] = {skin = "Shan Hai Scrolls", chroma = "Pearl"},
+			[23] = {skin = "Shan Hai Scrolls", chroma = "Rose Quartz"},
+			[20] = {skin = "Shan Hai Scrolls", chroma = "Ruby"},
 		},
 	},
 	Lissandra = {
@@ -8404,6 +8441,7 @@ local champions = {
 			"Coin Emperor",
 			"Arcana",
 			"High Noon",
+			"Shan Hai Scrolls",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -8412,6 +8450,7 @@ local champions = {
 			["Coin Emperor"] = {"None", "Amethyst", "Aquamarine", "Obsidian", "Pearl", "Rose Quartz", "Ruby"},
 			["Arcana"] = {"None", "Amethyst", "Citrine", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire"},
 			["High Noon"] = {"None", "Amethyst", "Catseye", "Emerald", "Nomad", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire"},
+			["Shan Hai Scrolls"] = {"None", "Citrine", "Obsidian", "Pearl", "Peridot", "Rose Quartz", "Ruby", "Sandstone", "Tanzanite"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -8443,6 +8482,15 @@ local champions = {
 			[25] = {skin = "High Noon", chroma = "Rose Quartz"},
 			[21] = {skin = "High Noon", chroma = "Ruby"},
 			[24] = {skin = "High Noon", chroma = "Sapphire"},
+			[30] = {skin = "Shan Hai Scrolls"},
+			[32] = {skin = "Shan Hai Scrolls", chroma = "Citrine"},
+			[33] = {skin = "Shan Hai Scrolls", chroma = "Obsidian"},
+			[38] = {skin = "Shan Hai Scrolls", chroma = "Pearl"},
+			[34] = {skin = "Shan Hai Scrolls", chroma = "Peridot"},
+			[37] = {skin = "Shan Hai Scrolls", chroma = "Rose Quartz"},
+			[31] = {skin = "Shan Hai Scrolls", chroma = "Ruby"},
+			[35] = {skin = "Shan Hai Scrolls", chroma = "Sandstone"},
+			[36] = {skin = "Shan Hai Scrolls", chroma = "Tanzanite"},
 		},
 	},
 	Taliyah = {
@@ -11166,6 +11214,7 @@ local wards = {
 		"Faerie Court Ward",
 		"Inkshadow Ward",
 		"Mysterious Garment Ward",
+		"DRX Ward",
 		"Space & Time Ward",
 	},
 	tableData = {
@@ -11408,6 +11457,7 @@ local wards = {
 		[237] = "Faerie Court Ward",
 		[238] = "Inkshadow Ward",
 		[239] = "Mysterious Garment Ward",
+		[240] = "DRX Ward",
 		[241] = "Space & Time Ward",
 	}
 }
