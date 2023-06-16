@@ -18,7 +18,6 @@ function selector:get_focus_target(range)
 end
 
 ---@param object_id number
----@return nil
 function selector:set_focus_target(object_id)
 end
 

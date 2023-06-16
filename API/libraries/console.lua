@@ -2,11 +2,9 @@
 local console = {}
 
 ---@param text string
----@return nil
 function console:log(text)
 end
 
----@return nil
 function console:clear()
 end
 
@@ -19,7 +17,6 @@ function console:copy_console()
 end
 
 ---@param text string
----@return nil
 function console:notify(text)
 end
 

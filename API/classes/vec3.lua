@@ -15,7 +15,6 @@ local vec3 = {}
 function vec3.new(x, y, z)
 end
 
----@return nil
 function vec3:normalize()
 end
 

@@ -5,13 +5,11 @@
 local client = {}
 
 ---@param str string
----@return nil
 function client:load(str)
 end
 
 ---@param event string
 ---@param callback function
----@return nil
 function client:set_event_callback(event, callback)
 end
 
@@ -20,11 +18,9 @@ end
 function client:unset_event_callback(func)
 end
 
----@return nil
 function client:force_reload()
 end
 
----@return nil
 function client:use_issue_order_hook()
 end
 
@@ -34,17 +30,14 @@ end
 
 ---@param func function
 ---@param delay number
----@return nil
 function client:delay_action(func, delay)
 end
 
 ---@param file_name string
----@return nil
 function client:play_sound(file_name)
 end
 
 ---@param mode any
----@return nil
 function client:set_mode(mode)
 end
 
@@ -57,7 +50,6 @@ end
 function client:is_focus()
 end
 
----@return nil
 function client:set_focus()
 end
 
@@ -66,13 +58,11 @@ function client:load_lua_config()
 end
 
 ---@param name string
----@return nil
 function client:set_dependency_ready(name)
 end
 
 ---@param name string
 ---@param callback function()
----@return nil
 function client:set_dependency_ready_callback(name, callback)
 end
 

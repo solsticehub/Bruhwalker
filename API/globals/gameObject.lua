@@ -112,7 +112,6 @@ local gameobject = {}
 function gameobject:is_facing(target)
 end
 
----@return nil
 function gameobject:draw_buffs()
 end
 
@@ -127,7 +126,6 @@ function gameobject:get_buff_hash(hash)
 end
 
 ---@param damage number
----@return nil
 function gameobject:draw_damage_health_bar(damage)
 end
 
@@ -194,16 +192,13 @@ function gameobject:distance_to(vec3)
 end
 
 ---@param skin_id number
----@return nil
 function gameobject:set_skin(skin_id)
 end
 
 ---@param text string
----@return nil
 function gameobject:set_name(text)
 end
 
----@return nil
 function gameobject:restore_name()
 end
 

@@ -26,7 +26,6 @@
 local game = {}
 
 ---@param bool boolean
----@return nil
 function game:set_camera_lock(bool)
 end
 
@@ -54,12 +53,10 @@ end
 function game:world_to_screen_2(x, y, z)
 end
 
----@return nil
 function game:mastery_display()
 end
 
 ---@param text string
----@return nil
 function game:send_chat(text)
 end
 
@@ -67,56 +64,46 @@ end
 ---@param y number|vec3
 ---@param z number|vec3
 ---@param ping_type number
----@return nil
 function game:send_ping(x, y, z, ping_type)
 end
 
 ---@param emote_type number
----@return nil
 function game:send_emote(emote_type)
 end
 
 ---@param item_id number
----@return nil
 function game:buy_item(item_id)
 end
 
 ---@param slot number
----@return nil
 function game:sell_item(slot)
 end
 
----@return nil
 function game:undo_item()
 end
 
 ---@param slot1 number
 ---@param slot2 number
----@return nil
 function game:swap_items(slot1, slot2)
 end
 
 ---@param text string
----@return nil
 function game:print_chat(text)
 end
 
 ---@param x number|screenSize
 ---@param y number|screenSize
----@return nil
 function game:set_mouse_pos(x, y)
 end
 
 ---@param delay number
 ---@param cursor_type number
----@return nil
 function game:spawn_fake_click(delay, cursor_type)
 end
 
 ---@param pos vec3
 ---@param delay number
 ---@param cursor_type number
----@return nil
 function game:spawn_fake_click_pos(pos, delay, cursor_type)
 end
 
@@ -143,7 +130,6 @@ function game:is_in_fow(x, y, z)
 end
 
 ---@param object gameObject
----@return nil
 function game:use_object(object)
 end
 

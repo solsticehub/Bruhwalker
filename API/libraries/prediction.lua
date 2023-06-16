@@ -1,7 +1,6 @@
 ---@class pred
 local pred = {}
 
----@return nil
 function pred:use_prediction()
 end
 

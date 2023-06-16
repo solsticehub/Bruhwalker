@@ -14,7 +14,6 @@ local minimap = {}
 ---@param green number
 ---@param blue number
 ---@param alpha number
----@return nil
 function minimap:draw_circle(x, y, z, radius, red, green, blue, alpha)
 end
 

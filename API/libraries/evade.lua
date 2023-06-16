@@ -1,11 +1,9 @@
 ---@class evade
 local evade = {}
 
----@return nil
 function evade:disable_evade()
 end
 
----@return nil
 function evade:enable_evade()
 end
 
@@ -35,16 +33,13 @@ function evade:is_dangerous_path(start_pos, end_pos, speed, delay)
 end
 
 ---@param skillshots table
----@return nil
 function evade:on_impossible_dodge(skillshots)
 end
 
 ---@param skillshots table
----@return nil
 function evade:on_low_chance_of_dodge(skillshots)
 end
 
----@return nil
 function evade:recalculate_path()
 end
 
