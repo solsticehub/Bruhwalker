@@ -133,6 +133,10 @@ end
 function on_process_spell(object, args)
 end
 
+function on_save_config()
+
+end
+
 ---@param object gameObject
 ---@param args stopCastArgs
 function on_stop_cast(object, args)
