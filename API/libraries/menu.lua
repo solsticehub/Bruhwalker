@@ -155,7 +155,7 @@ function menu:add_color_picker(text, category_id, red, green, blue, alpha, show_
 end
 
 ---@param picker_id number
----@return number
+---@return table
 function menu:get_color(picker_id)
 end
 
