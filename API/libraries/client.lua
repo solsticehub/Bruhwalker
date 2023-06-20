@@ -13,9 +13,9 @@ end
 function client:set_event_callback(event, callback)
 end
 
----@param func function
+---@param callback function
 ---@return boolean
-function client:unset_event_callback(func)
+function client:unset_event_callback(callback)
 end
 
 function client:force_reload()
@@ -33,8 +33,8 @@ end
 function client:delay_action(func, delay)
 end
 
----@param file_name string
-function client:play_sound(file_name)
+---@param name string
+function client:play_sound(name)
 end
 
 ---@param mode any
@@ -62,7 +62,7 @@ function client:set_dependency_ready(name)
 end
 
 ---@param name string
----@param callback function()
+---@param callback function
 function client:set_dependency_ready_callback(name, callback)
 end
 

@@ -36,9 +36,9 @@ end
 function orbwalker:attack_target(object)
 end
 
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 function orbwalker:move_to(x, y, z)
 end
 

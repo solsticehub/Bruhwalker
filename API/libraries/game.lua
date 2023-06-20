@@ -39,16 +39,16 @@ end
 function game:get_object(object_id)
 end
 
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 ---@return vec3
 function game:world_to_screen(x, y, z)
 end
 
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 ---@return vec3
 function game:world_to_screen_2(x, y, z)
 end
@@ -60,9 +60,9 @@ end
 function game:send_chat(text)
 end
 
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 ---@param ping_type number
 function game:send_ping(x, y, z, ping_type)
 end
@@ -91,8 +91,8 @@ end
 function game:print_chat(text)
 end
 
----@param x number|screenSize
----@param y number|screenSize
+---@param x number
+---@param y number
 function game:set_mouse_pos(x, y)
 end
 
@@ -122,9 +122,9 @@ end
 function game:hash_elf(str)
 end
 
----@param x vec3|number
----@param y vec3|number
----@param z vec3|number
+---@param x vec3
+---@param y vec3
+---@param z vec3
 ---@return boolean
 function game:is_in_fow(x, y, z)
 end

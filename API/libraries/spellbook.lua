@@ -8,12 +8,12 @@ end
 
 ---@param spell_slot any
 ---@param cast_delay? number
----@param x? number|vec3
----@param y? number|vec3
----@param z? number|vec3
----@param x1? number|vec3
----@param y1? number|vec3
----@param z1? number|vec3
+---@param x? number
+---@param y? number
+---@param z? number
+---@param x1? number
+---@param y1? number
+---@param z1? number
 function spellbook:cast_spell(spell_slot, cast_delay, x, y, z, x1, y1, z1)
 end
 
@@ -25,17 +25,17 @@ end
 
 ---@param spell_slot any
 ---@param cast_delay number
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 function spellbook:release_charged_spell(spell_slot, cast_delay, x, y, z)
 end
 
 ---@param spell_slot any
 ---@param cast_delay number
----@param x number|vec3
----@param y number|vec3
----@param z number|vec3
+---@param x number
+---@param y number
+---@param z number
 function spellbook:cast_spell_minimap(spell_slot, cast_delay, x, y, z)
 end
 
@@ -75,16 +75,16 @@ end
 
 ---@type spellbook
 _G.spellbook = {}
-_G.SLOT_Q = nil
-_G.SLOT_W = nil
-_G.SLOT_E = nil
-_G.SLOT_R = nil
-_G.SLOT_D = nil
-_G.SLOT_F = nil
-_G.SLOT_ITEM1 = nil
-_G.SLOT_ITEM2 = nil
-_G.SLOT_ITEM3 = nil
-_G.SLOT_ITEM4 = nil
-_G.SLOT_ITEM5 = nil
-_G.SLOT_ITEM6 = nil
-_G.SLOT_WARD = nil
+_G.SLOT_Q = 0
+_G.SLOT_W = 1
+_G.SLOT_E = 2
+_G.SLOT_R = 3
+_G.SLOT_D = 4
+_G.SLOT_F = 5
+_G.SLOT_ITEM1 = 6
+_G.SLOT_ITEM2 = 7
+_G.SLOT_ITEM3 = 8
+_G.SLOT_ITEM4 = 9
+_G.SLOT_ITEM5 = 10
+_G.SLOT_ITEM6 = 11
+_G.SLOT_WARD = 22

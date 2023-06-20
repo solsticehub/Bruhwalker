@@ -6,9 +6,9 @@
 ---@field public bounds vec3
 local minimap = {}
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number
+---@param y number
+---@param z number
 ---@param radius number
 ---@param red number
 ---@param green number
@@ -17,9 +17,9 @@ local minimap = {}
 function minimap:draw_circle(x, y, z, radius, red, green, blue, alpha)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number
+---@param y number
+---@param z number
 ---@return vec3
 function minimap:world_to_map(x, y, z)
 end

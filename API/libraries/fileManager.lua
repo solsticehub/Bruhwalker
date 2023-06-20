@@ -1,13 +1,13 @@
 ---@class fileManager
 local file_manager = {}
 
----@param file_name string
-function file_manager:encrypt_file(file_name)
+---@param name string
+function file_manager:encrypt_file(name)
 end
 
----@param file_name string
+---@param name string
 ---@return boolean
-function file_manager:file_exists(file_name)
+function file_manager:file_exists(name)
 end
 
 ---@param path string

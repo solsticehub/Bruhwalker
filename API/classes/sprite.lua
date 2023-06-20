@@ -1,15 +1,15 @@
 ---@class Sprite
 local sprite = {}
 
----@param x number|screenSize
----@param y number|screenSize
+---@param x number
+---@param y number
 ---@param width? number
 ---@param height? number
 function sprite:draw(x, y, width, height)
 end
 
----@param x number|screenSize
----@param y number|screenSize
+---@param x number
+---@param y number
 ---@param quality number
 ---@param width? number
 ---@param height? number

@@ -14,97 +14,97 @@ function menu:add_category_sprite(text, sprite_path)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@return number
-function menu:add_subcategory(text, category_id)
+function menu:add_subcategory(text, category)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param sprite_path string
 ---@return number
-function menu:add_subcategory_sprite(text, category_id, sprite_path)
+function menu:add_subcategory_sprite(text, category, sprite_path)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_checkbox(text, category_id, def_value, tool_tip, load_config)
+function menu:add_checkbox(text, category, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param sprite_path string
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_checkbox_sprite(text, category_id, sprite_path, def_value, tool_tip, load_config)
+function menu:add_checkbox_sprite(text, category, sprite_path, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param table table
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_combobox(text, category_id, table, def_value, tool_tip, load_config)
+function menu:add_combobox(text, category, table, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param table table
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_dropdown(text, category_id, table, def_value, tool_tip, load_config)
+function menu:add_dropdown(text, category, table, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param min number
 ---@param max number
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_slider(text, category_id, min, max, def_value, tool_tip, load_config)
+function menu:add_slider(text, category, min, max, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param min number
 ---@param max number
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_slider_range(text, category_id, min, max, def_value, tool_tip, load_config)
+function menu:add_slider_range(text, category, min, max, def_value, tool_tip, load_config)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param def_value number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_keybinder(text, category_id, def_value, tool_tip, load_config)
+function menu:add_keybinder(text, category, def_value, tool_tip, load_config)
 end
 
 ---@param text string
 ---@param toggle_text string
----@param category_id number
+---@param category number
 ---@param key number
 ---@param state number
 ---@param tool_tip? string
 ---@param load_config? boolean
 ---@return number
-function menu:add_toggle(text, toggle_text, category_id, key, state, tool_tip, load_config)
+function menu:add_toggle(text, toggle_text, category, key, state, tool_tip, load_config)
 end
 
 ---@param id number
@@ -113,9 +113,9 @@ function menu:get_toggle_state(id)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@return number
-function menu:add_label(text, category_id)
+function menu:add_label(text, category)
 end
 
 ---@param id number
@@ -123,10 +123,10 @@ end
 function menu:get_value(id)
 end
 
----@param control_name string
----@param category_name? string
+---@param control string
+---@param category? string
 ---@return number
-function menu:get_value_string(control_name, category_name)
+function menu:get_value_string(control, category)
 end
 
 ---@param id number
@@ -136,14 +136,14 @@ function menu:set_value(id, value)
 end
 
 ---@param value number
----@param control_name string
----@param category_name string
+---@param control string
+---@param category string
 ---@return number
-function menu:set_value_string(value, control_name, category_name)
+function menu:set_value_string(value, control, category)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param red number
 ---@param green number
 ---@param blue number
@@ -151,7 +151,7 @@ end
 ---@param show_alpha? boolean
 ---@param load_config? boolean
 ---@return number
-function menu:add_color_picker(text, category_id, red, green, blue, alpha, show_alpha, load_config)
+function menu:add_color_picker(text, category, red, green, blue, alpha, show_alpha, load_config)
 end
 
 ---@param picker_id number
@@ -185,33 +185,33 @@ end
 function menu:is_sub_category_hidden(id)
 end
 
----@param control_id number
+---@param control number
 ---@param callback function
-function menu:set_callback(control_id, callback)
+function menu:set_callback(control, callback)
 end
 
 ---@param text string
----@param category_id number
+---@param category number
 ---@param callback function
----@param tool_tip string
+---@param tool_tip? string
 ---@return number
-function menu:add_button(text, category_id, callback, tool_tip)
+function menu:add_button(text, category, callback, tool_tip)
 end
 
----@param control_id number
+---@param control number
 ---@param table table
 ---@return boolean
-function menu:change_table(control_id, table)
+function menu:change_table(control, table)
 end
 
----@param control_id number
+---@param control number
 ---@param str string
 ---@return boolean
-function menu:change_label(control_id, str)
+function menu:change_label(control, str)
 end
 
----@param script_name string
-function menu:set_config_name(script_name)
+---@param name string
+function menu:set_config_name(name)
 end
 
 ---@type menu

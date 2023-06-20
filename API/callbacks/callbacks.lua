@@ -4,15 +4,15 @@ function on_active_spell(object, active_spell)
 end
 
 ---@param object gameObject
----@param buff_name string
----@param buff_type number
-function on_buff_active(object, buff_name, buff_type)
+---@param name string
+---@param type number
+function on_buff_active(object, name, type)
 end
 
 ---@param object gameObject
----@param buff_name string
----@param buff_type number
-function on_buff_end(object, buff_name, buff_type)
+---@param name string
+---@param type number
+function on_buff_end(object, name, type)
 end
 
 ---@param args spellArgs
@@ -36,8 +36,8 @@ function on_cheat_cast_spell(slot, pos, target)
 end
 
 ---@param object gameObject
----@param dash_info dashInfo
-function on_dash(object, dash_info)
+---@param info dashInfo
+function on_dash(object, info)
 end
 
 function on_death()
@@ -96,14 +96,15 @@ function on_nexus_destroyed()
 end
 
 ---@param object gameObject
----@param obj_name string
-function on_object_created(object, obj_name)
+---@param name string
+---@param type number
+function on_object_created(object, name, type)
 end
 
 ---@param object gameObject
----@param obj_name string
----@param object_type number
-function on_object_deleted(object, obj_name, object_type)
+---@param name string
+---@param type number
+function on_object_deleted(object, name, type)
 end
 
 ---@param object gameObject
@@ -143,10 +144,10 @@ function on_stop_cast(object, args)
 end
 
 ---@param object gameObject
----@param tp_duration number
----@param tp_name string
+---@param duration number
+---@param name string
 ---@param status string
-function on_teleport(object, tp_duration, tp_name, status)
+function on_teleport(object, duration, name, status)
 end
 
 function on_tick()

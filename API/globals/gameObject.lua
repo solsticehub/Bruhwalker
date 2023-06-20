@@ -115,9 +115,9 @@ end
 function gameobject:draw_buffs()
 end
 
----@param buff_name string
+---@param name string
 ---@return buffObject
-function gameobject:get_buff(buff_name)
+function gameobject:get_buff(name)
 end
 
 ---@param hash number
@@ -158,9 +158,9 @@ end
 function gameobject:get_item(item_id)
 end
 
----@param buff_name string
+---@param name string
 ---@return boolean
-function gameobject:has_buff(buff_name)
+function gameobject:has_buff(name)
 end
 
 ---@param hash number
@@ -168,9 +168,9 @@ end
 function gameobject:has_buff_hash(hash)
 end
 
----@param buff_type number
+---@param type number
 ---@return boolean
-function gameobject:has_buff_type(buff_type)
+function gameobject:has_buff_type(type)
 end
 
 ---@param rune number
@@ -207,14 +207,14 @@ end
 function gameobject:can_evolve(slot)
 end
 
----@param bone_name string
+---@param name string
 ---@return vec3
-function gameobject:get_bone_position(bone_name)
+function gameobject:get_bone_position(name)
 end
 
----@param bone_hash number
+---@param hash number
 ---@return vec3
-function gameobject:get_bone_position_hashed(bone_hash)
+function gameobject:get_bone_position_hashed(hash)
 end
 
 ---@param check_slow boolean
