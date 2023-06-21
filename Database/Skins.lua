@@ -1,7 +1,7 @@
 --[[
 	Author: solstice
 	Version: 13.12.1
-	Date: 13 June 2023
+	Date: 21 June 2023
 ]]
 
 local champions = {
@@ -523,6 +523,7 @@ local champions = {
 			"Cosmic Flight",
 			"Divine Phoenix",
 			"Bewitching Batnivia",
+			"Victorious",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -537,6 +538,7 @@ local champions = {
 			["Cosmic Flight"] = {"None", "Citrine", "Emerald", "Obsidian", "Rainbow", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite", "Turquoise"},
 			["Divine Phoenix"] = {"None", "Amethyst", "Aquamarine", "Citrine", "Emerald", "Golden Tiger", "Obsidian", "Pearl", "Rose Quartz", "Ruby"},
 			["Bewitching Batnivia"] = {"None", "Amethyst", "Catseye", "Emerald", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Turquoise"},
+			["Victorious"] = {"None", "Bronze", "Challenger", "Diamond", "Gold", "Grandmaster", "Master", "Platinum", "Silver"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -585,6 +587,15 @@ local champions = {
 			[38] = {skin = "Bewitching Batnivia", chroma = "Ruby"},
 			[40] = {skin = "Bewitching Batnivia", chroma = "Sapphire"},
 			[44] = {skin = "Bewitching Batnivia", chroma = "Turquoise"},
+			[46] = {skin = "Victorious"},
+			[47] = {skin = "Victorious", chroma = "Bronze"},
+			[54] = {skin = "Victorious", chroma = "Challenger"},
+			[51] = {skin = "Victorious", chroma = "Diamond"},
+			[49] = {skin = "Victorious", chroma = "Gold"},
+			[53] = {skin = "Victorious", chroma = "Grandmaster"},
+			[52] = {skin = "Victorious", chroma = "Master"},
+			[50] = {skin = "Victorious", chroma = "Platinum"},
+			[48] = {skin = "Victorious", chroma = "Silver"},
 		},
 	},
 	Annie = {
@@ -3780,6 +3791,7 @@ local champions = {
 			"Karthus Lightsbane",
 			"Infernal",
 			"Pentakill Lost Chapter",
+			"Elderwood",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -3791,6 +3803,7 @@ local champions = {
 			["Karthus Lightsbane"] = {"None"},
 			["Infernal"] = {"None", "Amethyst", "Citrine", "Emerald", "Rose Quartz", "Ruby", "Sapphire"},
 			["Pentakill Lost Chapter"] = {"None", "Catseye", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite"},
+			["Elderwood"] = {"None", "Catseye", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Turquoise"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -3819,6 +3832,15 @@ local champions = {
 			[18] = {skin = "Pentakill Lost Chapter", chroma = "Ruby"},
 			[23] = {skin = "Pentakill Lost Chapter", chroma = "Sapphire"},
 			[22] = {skin = "Pentakill Lost Chapter", chroma = "Tanzanite"},
+			[26] = {skin = "Elderwood"},
+			[28] = {skin = "Elderwood", chroma = "Catseye"},
+			[29] = {skin = "Elderwood", chroma = "Emerald"},
+			[34] = {skin = "Elderwood", chroma = "Obsidian"},
+			[32] = {skin = "Elderwood", chroma = "Pearl"},
+			[30] = {skin = "Elderwood", chroma = "Rose Quartz"},
+			[27] = {skin = "Elderwood", chroma = "Ruby"},
+			[31] = {skin = "Elderwood", chroma = "Sapphire"},
+			[33] = {skin = "Elderwood", chroma = "Turquoise"},
 		},
 	},
 	Kassadin = {
@@ -6316,6 +6338,7 @@ local champions = {
 			"Victorious",
 			"Pool Party",
 			"Orbeeanna",
+			"Star Guardian",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -6329,6 +6352,7 @@ local champions = {
 			["Victorious"] = {"None", "Amber", "Peridot"},
 			["Pool Party"] = {"None", "Amethyst", "Catseye", "Obsidian", "Pearl", "Peridot", "Rose Quartz", "Ruby"},
 			["Orbeeanna"] = {"None", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire", "Tanzanite", "Turquoise"},
+			["Star Guardian"] = {"None", "Amethyst", "Catseye", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -6359,6 +6383,15 @@ local champions = {
 			[22] = {skin = "Orbeeanna", chroma = "Sapphire"},
 			[25] = {skin = "Orbeeanna", chroma = "Tanzanite"},
 			[27] = {skin = "Orbeeanna", chroma = "Turquoise"},
+			[29] = {skin = "Star Guardian"},
+			[35] = {skin = "Star Guardian", chroma = "Amethyst"},
+			[32] = {skin = "Star Guardian", chroma = "Catseye"},
+			[31] = {skin = "Star Guardian", chroma = "Emerald"},
+			[34] = {skin = "Star Guardian", chroma = "Obsidian"},
+			[37] = {skin = "Star Guardian", chroma = "Pearl"},
+			[36] = {skin = "Star Guardian", chroma = "Rose Quartz"},
+			[30] = {skin = "Star Guardian", chroma = "Ruby"},
+			[33] = {skin = "Star Guardian", chroma = "Sapphire"},
 		},
 	},
 	Ornn = {
@@ -7511,6 +7544,7 @@ local champions = {
 			"Ocean Song",
 			"Prestige Ocean Song",
 			"Faerie Court",
+			"Star Guardian",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -7519,6 +7553,7 @@ local champions = {
 			["Ocean Song"] = {"None", "Amethyst", "Catseye", "Emerald", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire"},
 			["Prestige Ocean Song"] = {"None"},
 			["Faerie Court"] = {"None", "Aquamarine", "Catseye", "Emerald", "Obsidian", "Rose Quartz", "Ruby", "Tanzanite", "Turquoise", "Winsome"},
+			["Star Guardian"] = {"None", "Emerald", "Obsidian", "Pearl", "Rainbow", "Rose Quartz", "Ruby", "Sapphire", "Turquoise"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -7553,6 +7588,15 @@ local champions = {
 			[30] = {skin = "Faerie Court", chroma = "Tanzanite"},
 			[32] = {skin = "Faerie Court", chroma = "Turquoise"},
 			[33] = {skin = "Faerie Court", chroma = "Winsome"},
+			[34] = {skin = "Star Guardian"},
+			[39] = {skin = "Star Guardian", chroma = "Emerald"},
+			[41] = {skin = "Star Guardian", chroma = "Obsidian"},
+			[40] = {skin = "Star Guardian", chroma = "Pearl"},
+			[42] = {skin = "Star Guardian", chroma = "Rainbow"},
+			[37] = {skin = "Star Guardian", chroma = "Rose Quartz"},
+			[35] = {skin = "Star Guardian", chroma = "Ruby"},
+			[36] = {skin = "Star Guardian", chroma = "Sapphire"},
+			[38] = {skin = "Star Guardian", chroma = "Turquoise"},
 		},
 	},
 	Sett = {
@@ -10037,6 +10081,7 @@ local champions = {
 			"Radiant",
 			"Lancer Stratus",
 			"Battle Academia",
+			"Elderwood",
 		},
 		tableChromas = {
 			["Original"] = {"None"},
@@ -10047,6 +10092,7 @@ local champions = {
 			["Radiant"] = {"None"},
 			["Lancer Stratus"] = {"None"},
 			["Battle Academia"] = {"None", "Catseye", "Emerald", "Meteorite", "Obsidian", "Pearl", "Rose Quartz", "Ruby", "Sapphire"},
+			["Elderwood"] = {"None", "Amethyst", "Aquamarine", "Citrine", "Emerald", "Pearl", "Rose Quartz", "Ruby", "Turquoise"},
 		},
 		tableData = {
 			[0] = {skin = "Original"},
@@ -10065,6 +10111,15 @@ local champions = {
 			[9] = {skin = "Battle Academia", chroma = "Rose Quartz"},
 			[8] = {skin = "Battle Academia", chroma = "Ruby"},
 			[11] = {skin = "Battle Academia", chroma = "Sapphire"},
+			[16] = {skin = "Elderwood"},
+			[23] = {skin = "Elderwood", chroma = "Amethyst"},
+			[21] = {skin = "Elderwood", chroma = "Aquamarine"},
+			[18] = {skin = "Elderwood", chroma = "Citrine"},
+			[19] = {skin = "Elderwood", chroma = "Emerald"},
+			[24] = {skin = "Elderwood", chroma = "Pearl"},
+			[22] = {skin = "Elderwood", chroma = "Rose Quartz"},
+			[17] = {skin = "Elderwood", chroma = "Ruby"},
+			[20] = {skin = "Elderwood", chroma = "Turquoise"},
 		},
 	},
 	Xayah = {
