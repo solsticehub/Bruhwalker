@@ -68,11 +68,3 @@ end
 
 ---@type client
 _G.client = {}
-_G.MODE_COMBO = nil
-_G.MODE_FLEE = nil
-_G.MODE_FREEZE = nil
-_G.MODE_HARASS = nil
-_G.MODE_LANECLEAR = nil
-_G.MODE_LASTHIT = nil
-_G.MODE_NONE = nil
-_G.MODE_ORBWALKER = nil
