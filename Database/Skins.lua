@@ -1,7 +1,7 @@
 --[[
 	Author: solstice
-	Version: 13.12.1
-	Date: 21 June 2023
+	Version: 13.13.1
+	Date: 28 June 2023
 ]]
 
 local champions = {
