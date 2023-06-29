@@ -184,5 +184,27 @@ end
 function renderer:add_indicator(text, red, green, blue)
 end
 
+---@param x number
+---@param y number
+---@param text string
+---@param size number
+---@param red number
+---@param green number
+---@param blue number
+---@param alpha number
+function renderer:draw_text_big_size(x, y, text, size, red, green, blue, alpha)
+end
+
+---@param x number
+---@param y number
+---@param text string
+---@param size number
+---@param red number
+---@param green number
+---@param blue number
+---@param alpha number
+function renderer:draw_text_big_size_centered(x, y, text, size, red, green, blue, alpha)
+end
+
 ---@type renderer
 _G.renderer = {}
