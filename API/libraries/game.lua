@@ -122,9 +122,9 @@ end
 function game:hash_elf(str)
 end
 
----@param x vec3
----@param y vec3
----@param z vec3
+---@param x number
+---@param y number
+---@param z number
 ---@return boolean
 function game:is_in_fow(x, y, z)
 end
