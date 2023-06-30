@@ -15,7 +15,7 @@ _G. SpellDataInput = {}
 ---@class DynastyOrb
 local DynastyOrb = {}
 
----@param event string
+---@param event string Available events: OnResetAA, OnUnKillable, OnAttack, OnAfterAttack, OnBeforeAttack, OnOutofRange, OnPreTick
 ---@param callback function
 function DynastyOrb:AddCallback(event, callback)
 end
