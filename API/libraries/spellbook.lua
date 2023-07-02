@@ -73,6 +73,11 @@ end
 function spellbook:level_spell_slot(slot)
 end
 
+---@param slot number
+---@return boolean
+function spellbook:can_level_spell_slot(slot)
+end
+
 ---@type spellbook
 _G.spellbook = {}
 _G.SLOT_Q = 0
