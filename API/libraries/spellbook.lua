@@ -78,6 +78,27 @@ end
 function spellbook:can_level_spell_slot(slot)
 end
 
+---@param slot number
+---@param pos vec3
+function spellbook:set_targeting_pos(slot, pos)
+end
+
+---@param slot number
+---@param pos vec3
+---@param dest vec3
+function spellbook:set_targeting_pos_and_dest(slot, pos, dest)
+end
+
+---@param slot number
+---@param target gameObject
+function spellbook:set_targeting_object(slot, target)
+end
+
+---@param slot number
+---@return number
+function spellbook:get_spell_key(slot)
+end
+
 ---@type spellbook
 _G.spellbook = {}
 _G.SLOT_Q = 0
