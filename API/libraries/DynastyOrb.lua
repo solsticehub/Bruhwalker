@@ -10,7 +10,7 @@ function SpellDataInput.new(range, speed, delay, type)
 end
 
 ---@class SpellDataInput
-_G. SpellDataInput = {}
+_G.SpellDataInput = {}
 
 ---@class DynastyOrb
 local DynastyOrb = {}
