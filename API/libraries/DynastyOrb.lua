@@ -87,5 +87,62 @@ end
 function DynastyOrb:GetSpellFarmTarget(data, damage, unkillable)
 end
 
+---@param object gameObject
+---@return boolean
+function DynastyOrb:IsAttackedByTower(object)
+end
+
+---@param object gameObject
+---@return boolean
+function DynastyOrb:IsInAttackRange(object)
+end
+
+---@return number
+function DynastyOrb:TimeSinceLastAttackOrder()
+end
+
+---@return number
+function DynastyOrb:TimeSinceLastAttack()
+end
+
+---@return number
+function DynastyOrb:TimeSinceLastMoveOrder()
+end
+
+---@return number
+function DynastyOrb:TimeSinceLastMove()
+end
+
+---@return number
+function DynastyOrb:GetTimeUntilAttackFinished()
+end
+
+---@return number
+function DynastyOrb:AutoAttackCooldown()
+end
+
+---@return gameObject
+function DynastyOrb:GetForcedTarget()
+end
+
+---@param object gameObject
+function DynastyOrb:SetTarget(object)
+end
+
+function DynastyOrb:RemoveTarget()
+end
+
+---@return boolean
+function DynastyOrb:IsAttacking()
+end
+
+---@return boolean
+function DynastyOrb:IsFullAttacking()
+end
+
+---@return boolean
+function DynastyOrb:IsOrbwalking()
+end
+
 ---@class DynastyOrb
 _G.DynastyOrb = {}
