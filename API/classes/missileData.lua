@@ -9,3 +9,4 @@
 ---@field public is_targeted boolean
 ---@field public start_pos vec3
 ---@field public end_pos vec3
+---@field public active_spell activeSpell

@@ -68,6 +68,7 @@
 ---@field public is_inhib boolean
 ---@field public is_missile boolean
 ---@field public missile_data missileData
+---@field public missile_origin vec3
 ---@field public origin vec3
 ---@field public originMM vec3
 ---@field public direction vec3
